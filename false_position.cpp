@@ -38,5 +38,5 @@ int main()
 {
    double a , b ;
     cin>> a >> b;
-    Bisection(a,b);
+    FalsePosition(a,b);
 }
