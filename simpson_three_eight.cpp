@@ -17,8 +17,8 @@ double simpson_three_eight(double a  , double b , double n)
             three+= fun(a);
         else non_three+= fun(a);
     }
-    double ans = (3*h*((y0+yn) + 2*three + 3*non_three))/8;
-    return ans;
+   double ans = h*((y0+yn) + 2*three + 3*non_three)/8;
+   return 3*ans;
 }
 int main()
 {
